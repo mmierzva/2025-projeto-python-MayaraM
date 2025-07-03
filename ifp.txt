@@ -1,0 +1,41 @@
+2025.06.03
+Mayara M
+
+01. Entrada:
+Arquivo: meu_projeto.py
+Linha 63: RespUser = input('Digite a resposta correta: ')
+Explicação: A variável RespUser recebe uma entrada do usuário através da função input(), que pede para digitar a resposta correta do jogo.
+
+02. Saída:
+Arquivo: meu_projeto.py
+Linha 71: print(f'Resposta incorreta. A resposta era: {p["resposta"]}.')
+Explicação: Exibe uma mensagem caso a resposta que o usuário digitou for incorreta.
+
+03. Variáveis:
+Arquivo: meu_projeto.py
+Linha 11: perguntas = 0
+Explicação: Declara a variável perguntas, que armazena as perguntas do jogo.
+
+04. Estruturas de Decisão:
+Arquivo: meu_projeto.py
+Linha 138:  if RespUser == p['resposta']:
+                    print()
+                    print('Parabéns, você acertou!')
+Explicação:a estrutura if só executra a determinada ação de imprimir a mensagem de acerto se o usuário digitar a resposta certa do jogo.
+
+05. Estruturas de Repetição:
+Arquivo: meu_projeto.py
+Linha 36:  while resp not in opcoes:
+            resp = getValue('Valor inválido, tente novamente')
+Explicação: a estrutura while não vai parar determinada ação até que a condição para a ação ser parada esteja disponível. 
+No caso do jogo, o laço será repetido enquanto valores inválidos sejam digitados até que um valor válido seja digitado e assim vai parar o loop.
+
+06. Sub-rotinas:
+Arquivo: meu_projeto.py
+Linha 22: def playGame():
+Explicação: a sub-rotina def é utilizada para facilitar o código, evitar repetição  e também utilizada para definir uma função, como no caso do jogo.
+
+07. Operadores:
+Arquivo: meu_projeto.py
+Linha 138: if RespUser == p['resposta']:
+Explicação: o operador == é um operador de igualdade, utilizado para fazer uma comparação, no caso do jogo, compara a variável RespUser com a resposta do usuário.
